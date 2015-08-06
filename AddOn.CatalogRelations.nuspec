@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AddOn.CatalogRelations</id>
+    <version>$version$</version>
+    <title>Catalog Relations Gadget</title>
+    <authors>EPiServer AB</authors>
+    <owners>EPiServer AB</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Lists variants of the current product, parent product of the current variant etc.</description>
+    <releaseNotes>Beta release of the Catalog Relations Gadget.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>EPiServerModulePackage EPiServer-UI Commerce</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.UI" version="[8.0,9.0)" />
+      <dependency id="EPiServer.Commerce.Core" version="[8.8,9.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\AddOn.CatalogRelations.dll" target="lib\net45\" />
+    <file src="bin\$configuration$\AddOn.CatalogRelations.zip" target="content\modules\_protected\AddOn.CatalogRelations\" />
+  </files>
+</package>

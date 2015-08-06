@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="English" id="en">
+    <addon>
+      <catalogrelations>
+        <title>Catalog Relations</title>
+        <description>Lists variants of the current product, parent product of the current variant etc.</description>
+        <queries>
+          <variants>Variants</variants>
+          <othervariants>Other Variants</othervariants>
+          <parentproducts>Parent Products</parentproducts>
+          <parentcategories>Parent Categories</parentcategories>
+          <parentbundles>Parent Bundles</parentbundles>
+          <parentpackages>Parent Packages</parentpackages>
+        </queries>
+      </catalogrelations>
+    </addon>
+  </language>
+</languages>
